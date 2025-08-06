@@ -23,7 +23,6 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          python install -m pip --upgrade pip
           pip install -r requirements.txt
           pip install pytest
 
